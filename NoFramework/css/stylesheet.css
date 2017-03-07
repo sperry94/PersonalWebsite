@@ -1,11 +1,11 @@
 /*This line (and those that apply these fonts) supplied by google*/
-@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Rubik+Mono+One');
 
 body {
   border: 0px;
   margin: 0px;
   padding: 0px;
-  background-color: #AEAEAE;
+  background-color: #CECECE;
 }
 
 #name > h1 {
@@ -19,12 +19,13 @@ body {
   clear: left;
   float: left;
   color: black;
-  font-size: x-large;
+  font-size: 20px;
+  font-family: 'Rubik Mono One', sans-serif;
   text-decoration: none;
 }
 
 #header {
-  height: 300px;
+  min-height: 300px;
   border: 0px;
   margin: 0px;
   padding: 0px;
@@ -44,6 +45,8 @@ body {
   color: black;
   font-size: x-large;
   text-decoration: none;
+  font-size: 20px;
+  font-family: 'Bungee', sans-serif;
 }
 
 #name {
@@ -55,7 +58,7 @@ body {
 #name > a, #name > p {
   color: black;
   font-family: 'Bungee Inline', cursive;
-  font-size: 75px;
+  font-size: 60px;
   text-decoration: none;
 }
 
@@ -65,12 +68,15 @@ body {
   padding: 0px;
   padding-top: 50px;
   text-align: center;
+  font-size: 50px;
+  font-family: 'Bungee', sans-serif;
 }
 
 #content {
   padding-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
+  border-top: solid thick black;
 }
 
 .contentSection {
