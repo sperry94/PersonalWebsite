@@ -2,7 +2,7 @@ body {
   border: 0px;
   margin: 0px;
   padding: 0px;
-  background-color: rgba(50,56,50,0.85);
+  background-color: #AEAEAE;
 }
 
 #name > h1 {
@@ -27,12 +27,13 @@ body {
   padding: 0px;
   background: url("../img/flatironsPhoto.jpg");
   background-size: cover;
-  background-color: white;
+  opacity: 0.8;
 }
 
 #headerLinks {
   float: right;
   padding-top: 20px;
+  padding-right: 30px;
 }
 
 #headerLinks > a {
@@ -62,10 +63,14 @@ body {
   text-align: center;
 }
 
-.contentSection {
+#content {
+  padding-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 50px;
+}
+
+.contentSection {
+  margin-bottom: 50px;
 }
 
 .contentSection > h2 {
@@ -74,4 +79,13 @@ body {
 
 .contentSection > p {
   text-align: center;
+}
+
+.course {
+  float: left;
+  width: 260px;
+  height: 260px;
+  padding: 20px;
+  margin: 20px;
+  background-color: grey;
 }
