@@ -1,0 +1,77 @@
+body {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(50,56,50,0.85);
+}
+
+#name > h1 {
+  text-align: center;
+  color: black;
+}
+
+#indexLinks > a {
+  padding-top: 20px;
+  padding-left: 20px;
+  clear: left;
+  float: left;
+  color: black;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+#header {
+  height: 300px;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  background: url("../img/flatironsPhoto.jpg");
+  background-size: cover;
+  background-color: white;
+}
+
+#headerLinks {
+  float: right;
+  padding-top: 20px;
+}
+
+#headerLinks > a {
+  padding-right: 10px;
+  color: black;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+#name {
+  float: left;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+#name > a {
+  color: black;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+#pageTitle {
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.contentSection {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+}
+
+.contentSection > h2 {
+  text-align: center;
+}
+
+.contentSection > p {
+  text-align: center;
+}
