@@ -1,34 +1,33 @@
 /*This line (and those that apply these fonts) supplied by google*/
-@import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Lato|Rubik+Mono+One');
 
 body {
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
-  background-color: #CECECE;
+  border: 0em;
+  margin: 0em;
+  padding: 0em;
+  background-color: #99A799;
+  min-width: 500px;
 }
 
-#name > h1 {
-  text-align: center;
-  color: black;
-}
-
-#indexLinks > a {
-  padding-top: 20px;
-  padding-left: 20px;
-  clear: left;
+#name {
   float: left;
+  padding-left: 2em;
+  padding-top: 1em;
+}
+
+#name > a, #indexName > p {
   color: black;
-  font-size: 20px;
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 60px;
   text-decoration: none;
+  text-align: center;
 }
 
 #header {
-  min-height: 300px;
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
+  min-height: 20em;
+  border: 0em;
+  margin: 0em;
+  padding: 0em;
   background: url("../img/flatironsPhoto.jpg");
   background-size: cover;
   opacity: 0.8;
@@ -36,30 +35,55 @@ body {
 
 #headerLinks {
   float: right;
-  padding-top: 20px;
-  padding-right: 30px;
+  padding-top: 2em;
+  padding-right: 1em;
 }
 
 #headerLinks > a {
-  padding-right: 10px;
+  padding-right: 1em;
   color: black;
   font-size: x-large;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25em;
   font-family: 'Bungee', sans-serif;
 }
 
-#name {
-  float: left;
-  padding-left: 20px;
-  padding-top: 15px;
+#selectionWheel {
+  display: block;
+  margin: 0px auto 0px auto;
+  padding: 0px;
+  border: solid thick black;
+  clear: both;
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
 }
 
-#name > a, #name > p {
+#indexLinks {
+  padding-top: 45px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#indexLinks a {
   color: black;
-  font-family: 'Bungee Inline', cursive;
-  font-size: 60px;
+  font-size: 1em;
+  font-family: 'Rubik Mono One', sans-serif;
   text-decoration: none;
+}
+
+#indexLinks tr {
+  margin: 0px;
+  padding: 0px;
+  height: 175px;
+}
+
+#indexLinks td {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  width: 175px;
 }
 
 #pageTitle {
@@ -90,20 +114,76 @@ body {
 
 .contentSection > p {
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: medium;
 }
 
-.course {
-  float: left;
-  width: 260px;
-  height: 260px;
+.card {
+  display: inline-block;
+  width: 15em;
+  height: 15em;
   padding: 20px;
   margin: 20px;
+  overflow-x: hidden;
+  overflow-y: scroll;
   background-color: grey;
 }
 
-.course > h5, .course > p {
-  font-family: sans-serif;
+.card > h2 {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: xx-large;
+}
+
+.card > .cardDescription {
+  margin-top: 0px;
+  font-family: 'Lato', sans-serif;
   font-size: medium;
+}
+
+form {
+  display: block;
+  margin: auto;
+  padding-left: 15%;
+}
+
+.fieldWrapper, #buttonWrapper {
+  margin-top: 1em;
+}
+
+.fieldWrapper > input, .fieldWrapper > textarea {
+  vertical-align: top;
+}
+
+.fieldWrapper > label {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 1.5em;
+  display: inline-block;
+  width: 6em;
+  text-align: right;
+  margin-right: 1em;
+}
+
+.fieldWrapper > input {
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+}
+
+.fieldWrapper > textarea {
+  width: 20em;
+  height: 12.5em;
+  resize: none;
+  overflow-y: scroll;
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  max-width: 100%;
+}
+
+#buttonWrapper > button {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 1.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

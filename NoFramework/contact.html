@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Seth Perry - Coursework</title>
+    <title>Seth Perry - Contact</title>
     <link rel="stylesheet" href="./css/stylesheet.css" />
   </head>
-  <body>
+  <body id="contactBody">
     <div id="header">
       <div id="name">
         <a href="./index.html">
@@ -27,7 +27,23 @@
       </h1>
     </div>
     <div id="content">
-
+      <form action="" method="post">
+        <div id="nameWrapper" class="fieldWrapper">
+          <label for="nameInput">Name</label>
+          <input id="nameInput" type="text" />
+        </div>
+        <div id="emailWrapper" class="fieldWrapper">
+          <label for="emailInput">Email</label>
+          <input id="emailInput" type="email" />
+        </div>
+        <div id="messageWrapper" class="fieldWrapper">
+          <label for="messageInput">Message</label>
+          <textarea id="messageInput"></textarea>
+        </div>
+        <div id="buttonWrapper">
+          <button type="submit">Send</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>
