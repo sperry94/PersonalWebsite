@@ -1,0 +1,25 @@
+{
+  "name": "personal-website-server",
+  "version": "1.0.0",
+  "description": "Server for my personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sperry94/PersonalWebsite.git"
+  },
+  "author": "Seth Perry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sperry94/PersonalWebsite/issues"
+  },
+  "homepage": "https://github.com/sperry94/PersonalWebsite#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "sendgrid": "^5.0.0"
+  }
+}

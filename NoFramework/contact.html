@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Seth Perry - Contact</title>
+    <link rel="stylesheet" href="./thirdparty/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/stylesheet.css" />
+    <script src="./thirdparty/js/jquery-3.2.0.min.js"></script>
+    <script src="./thirdparty/js/bootstrap.min.js"></script>
   </head>
-  <body id="contactBody">
+  <body lang="en" id="contactBody">
     <div id="header">
       <div id="name">
         <a href="./index.html">
@@ -15,11 +18,11 @@
         <a href="./aboutme.html">
           About Me
         </a>
+        <a href="./coursework.html">
+          Coursework
+        </a>
         <a href="./projects.html">
           Projects
-        </a>
-        <a href="./contact.html">
-          Contact
         </a>
       </div>
       <h1 id="pageTitle">
@@ -27,23 +30,24 @@
       </h1>
     </div>
     <div id="content">
-      <form action="" method="post">
+      <form id="contactForm" method="post">
         <div id="nameWrapper" class="fieldWrapper">
           <label for="nameInput">Name</label>
-          <input id="nameInput" type="text" />
+          <input id="nameInput" type="text" name="name"/>
         </div>
         <div id="emailWrapper" class="fieldWrapper">
           <label for="emailInput">Email</label>
-          <input id="emailInput" type="email" />
+          <input id="emailInput" type="email" name="email"/>
         </div>
         <div id="messageWrapper" class="fieldWrapper">
           <label for="messageInput">Message</label>
-          <textarea id="messageInput"></textarea>
+          <textarea id="messageInput" name="message"></textarea>
         </div>
         <div id="buttonWrapper">
           <button type="submit">Send</button>
         </div>
       </form>
     </div>
+    <script src="./js/handleContactSubmit.js"></script>
   </body>
 </html>

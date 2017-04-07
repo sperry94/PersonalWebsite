@@ -5,7 +5,7 @@ body {
   border: 0em;
   margin: 0em;
   padding: 0em;
-  background-color: #99A799;
+  background-color: #BBBBBB;
   min-width: 500px;
 }
 
@@ -64,8 +64,6 @@ body {
 }
 
 #indexLinks {
-  padding-top: 45px;
-  padding-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -80,7 +78,7 @@ body {
 #indexLinks tr {
   margin: 0px;
   padding: 0px;
-  height: 175px;
+  height: 200px;
 }
 
 #indexLinks td {
@@ -98,13 +96,15 @@ body {
   text-align: center;
   font-size: 50px;
   font-family: 'Bungee', sans-serif;
+  color: black;
 }
 
 #content {
   padding-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
-  border-top: solid thick black;
+  padding-bottom: 50px;
+  border-top: solid 0.6em black;
 }
 
 .contentSection {
@@ -119,29 +119,67 @@ body {
 .contentSection > p {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-size: medium;
+  font-size: x-large;
+}
+
+.cardContainer {
+  text-align: center;
 }
 
 .card {
   display: inline-block;
-  width: 15em;
-  height: 15em;
+  width: 17.5em;
+  height: 17.5em;
   padding: 20px;
   margin: 20px;
   overflow-x: hidden;
   overflow-y: scroll;
-  background-color: grey;
+  background-color: black;
+  opacity: 0.5;
 }
 
 .card > h2 {
   margin: 0px;
   text-align: center;
+  color: white;
+  opacity: 0.75;
   font-family: 'Lato', sans-serif;
   font-size: xx-large;
+  padding-bottom: 0.5em;
 }
 
-.card > .cardDescription {
+.card > h3 {
+  margin: 0.5em 0em 0.5em 0em;
+  text-align: left;
+  color: white;
+  opacity: 0.75;
+  font-family: 'Lato', sans-serif;
+  font-size: large;
+}
+
+.card > p {
   margin-top: 0px;
+  text-align: left;
+  color: white;
+  opacity: 0.75;
+  font-family: 'Lato', sans-serif;
+  font-size: large;
+}
+
+.card ul {
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: left;
+  color: white;
+  opacity: 0.75;
+  font-family: 'Lato', sans-serif;
+  font-size: medium;
+}
+
+.card li {
+  text-align: left;
+  color: white;
+  opacity: 0.75;
   font-family: 'Lato', sans-serif;
   font-size: medium;
 }
@@ -190,4 +228,19 @@ form {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.panel-group {
+  margin-bottom: 4em;
+}
+
+#aboutMeLinksContainer {
+  text-align: center;
+}
+
+.aboutMeLink {
+  display: inline-block;
+  text-align: center;
+  width: 15em;
+  font-size: x-large;
 }
